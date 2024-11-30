@@ -91,7 +91,7 @@ def main():
     - `bulls_and_cows()` pro vyhodnocení býků a krav."""
     time_start = time.time()
     tajne_cislo = generate_unique_number()
-    print(f"Tajné číslo (pro kontrolu): {tajne_cislo}") 
+    #print(f"Tajné číslo (pro kontrolu): {tajne_cislo}") Tajné číslo pro rychlejší kontrolu
     pokusy = 0
     while True:
         uzivatel_cislo = cislo()
